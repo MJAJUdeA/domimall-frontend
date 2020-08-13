@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cucumber": "cucumber-js -f node_modules/cucumber-pretty --no-strict"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,6 +33,8 @@
     ]
   },
   "devDependencies": {
-    "cucumber": "^6.0.5"
+    "cucumber": "^6.0.5",
+    "cucumber-pretty": "^6.0.0",
+    "hamjest": "^3.7.1"
   }
 }
