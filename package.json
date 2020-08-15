@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "cucumber":"cucumber-js -f node_modules/cucumber-pretty --no-strict"
+    "cucumber": "cucumber-js -f node_modules/cucumber-pretty --no-strict"
   },
   "private": true,
   "dependencies": {
