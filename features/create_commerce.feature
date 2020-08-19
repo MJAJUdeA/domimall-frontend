@@ -44,8 +44,7 @@ Feature: Create Commerce
     And "San andresitos SA" isn't on SIC
     When create a Commerce
     And check "San andresitos SA" on SIC
-    Then ensure "San andresitos SA" doesn't exist on SIC
-    And the notification should be "couldn't be created because Commerce wasn't found on SIC"
+    Then the notification should be "couldn't be created because Commerce wasn't found on SIC"
 
   Scenario: Create a Commerce registered on SIC
     Given "Andres" is an Admin
@@ -53,8 +52,7 @@ Feature: Create Commerce
     And "Papa johns" is on SIC
     When create a Commerce
     And check "Papa johns" on SIC
-    Then ensure "Papa johns" exists on SIC
-    And ensure Commerce is created
+    Then ensure Commerce is created
 
   #Rule: A Commerce must have certain fields
   Scenario: can't create a Commerce lacking country

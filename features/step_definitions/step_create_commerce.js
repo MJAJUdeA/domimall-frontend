@@ -55,18 +55,7 @@ Then('ensure Commerce is created', function () {
   return 'pending';
 });
 
-Then('ensure {string} doesn\'t exist on SIC', function (string) {
-  // Write code here that turns the phrase above into concrete actions
-  return 'pending';
-});
-
 Then('the notification should be {string}', function (string) {
-  // Write code here that turns the phrase above into concrete actions
-  return 'pending';
-});
-
-
-Then('ensure {string} exists on SIC', function (string) {
   // Write code here that turns the phrase above into concrete actions
   return 'pending';
 });
